@@ -1,6 +1,6 @@
 close all;clear all;clc;
 %% Import data
-Data_all = importdata('Rat1_natural_Post.xlsx');
+Data_all = importdata('Data.xlsx');
 %Data = Data_all.data(1:3000);
 Data = Data_all(1:1000);
 Data = Data(~isnan(Data));
