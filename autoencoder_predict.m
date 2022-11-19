@@ -1,6 +1,6 @@
 close all;clear all;clc;
 %% Import data
-Data_all = importdata('daily-minimum-temperatures-in-me.csv');
+Data_all = importdata('Data.csv');
 Data = Data_all.data(1:3000);
 Data = Data(~isnan(Data));
 clear Data_all
